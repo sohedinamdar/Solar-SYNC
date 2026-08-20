@@ -1,0 +1,13 @@
+{
+  "name": "solar-sync-hardware-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arduino serial to WebSocket bridge for the Solar Sync 3D dashboard",
+  "main": "solar-sync-server.js",
+  "scripts": { "start": "node solar-sync-server.js" },
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "serialport": "^12.0.0",
+    "ws": "^8.18.0"
+  }
+}
